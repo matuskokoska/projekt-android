@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Organizer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="note_title_input">Title</string>
+    <string name="note_content_input">Note</string>
+    <string name="create_note_button">Create</string>
+</resources>

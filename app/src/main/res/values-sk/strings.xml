@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizér</string>
+    <string name="note_title_input">Názov</string>
+    <string name="note_content_input">Poznámka</string>
+    <string name="create_note_button">Vytvoriť</string>
+</resources>

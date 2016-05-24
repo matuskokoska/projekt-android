@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:background="#fff"
+    tools:context="com.example.dominik.organizer.CreateNoteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/note_title_input"
+        android:id="@+id/textView"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/titleInput"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:editable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/note_content_input"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/titleInput"
+        android:layout_alignStart="@+id/titleInput"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/noteInput"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:editable="true"
+        android:focusable="true"
+        android:nestedScrollingEnabled="true"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_note_button"
+        android:id="@+id/createNoteButton"
+        android:layout_below="@+id/noteInput"
+        android:layout_alignEnd="@+id/noteInput"
+        android:layout_marginTop="34dp" />
+
+</RelativeLayout>
